@@ -32,5 +32,10 @@ scoobyDoo = 'scooby-doo'.toUpperCase();
 console.log(`Mystery Solved!  ${myAge} year old ${myName} is ${myAgeInDogYears} years old in dog years!  ${myName} is a fictional character in the ${scoobyDoo} franchise. He is an amateur detective and cowardly slacker and the long-time best friend of his equally cowardly dog, ${scoobyDoo}.`)
 // Output: Mystery Solved!  24 year old norville "shaggy" rogers is 109 years old in dog years!  norville "shaggy" rogers is a fictional character in the SCOOBY-DOO franchise. He is an amateur detective and cowardly slacker and the long-time best friend of his equally cowardly dog, SCOOBY-DOO.
 
+// Check capitilization of first character
+console.log('scooby-doo'.startsWith('S'));
+Output: false
+console.log('scooby-doo'.startsWith('s')); 
+Output: true
 
 /*To re-visit how to capitilize S and D of Scooby-Doo.*/ 
