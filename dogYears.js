@@ -34,8 +34,8 @@ console.log(`Mystery Solved!  ${myAge} year old ${myName} is ${myAgeInDogYears} 
 
 // Check capitilization of first character
 console.log('scooby-doo'.startsWith('S'));
-Output: false
+// Output: false
 console.log('scooby-doo'.startsWith('s')); 
-Output: true
+// Output: true
 
 /*To re-visit how to capitilize S and D of Scooby-Doo.*/ 
